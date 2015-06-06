@@ -1,5 +1,6 @@
 public class Solution{
     public double findMedianSortedArrays(int[] nums1, int[] nums2){
+        //find median element => find kth element in two sorted array
         int n = nums1.length + nums2.length;
         if(n % 2 == 1){
             return findKth(nums1, 0, nums2, 0, n/2 + 1);
