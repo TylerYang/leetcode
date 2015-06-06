@@ -1,5 +1,4 @@
 # leetcode
-=======
 
 Tyler's leetcode respository.
 
