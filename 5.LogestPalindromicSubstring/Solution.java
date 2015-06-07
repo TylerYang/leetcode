@@ -4,7 +4,7 @@ public class Solution{
         int sLen = s.length();
         if(sLen <= 1) return s;
         int max = 1, start = 0, end = 1;
-        for(int i = 0; i < sLen; i++){
+        for(int i = 0; i < sLen&&i + max < sLen; i++){
             for(int j = sLen - 1; j - i + 1 > max; j--){
                 if(isPalindrome(s, i, j)){
                     max = j - i + 1;
