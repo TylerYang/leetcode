@@ -2,6 +2,7 @@ public class SolutionDP{
     //Dynamic Programming solution
     public String longestPalindromeSubstring(String str){
         int strLen = str.length();
+        if(strLen <= 1) return str;
         boolean[][] palin = new boolean[strLen][strLen];
         int max = 0, start = 0, end = 0;
         for(int i = strLen; i >= 0; i--){
