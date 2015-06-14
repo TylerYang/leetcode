@@ -24,11 +24,11 @@ public class Solution {
     }
     private int safeAdd(int x, int y){
         if(x == 0 || y == 0) return x + y;
-        int r = x + y;
-        if(r - x != y){
-           throw new ArithmeticException(); 
+        long r = ((long) x) + y;
+        if(r > Integer.MAX_VALUE || r < Integer.MIN_VALUE){
+            throw new ArithmeticException();
         } else {
-            return r;
+            return (int)r;
         }
     }
     public static void main(String[] args){
