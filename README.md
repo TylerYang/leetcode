@@ -11,6 +11,7 @@ Here is the question list:
 * 4. Median of Two Sorted Arrays (5) *
 * 5. Longest Palindromic Substring (3) (Brute force, Dynamic Programming) 
 * 6. ZigZag Conversion (3) 
+* 7. Reverse Integer(2) 
 
 
 For now only implement in two languages: Java and JavaScript.
