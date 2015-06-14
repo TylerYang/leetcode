@@ -1,4 +1,5 @@
 public class Solution {
+    //two cases: with *, without *
     public boolean isMatch(String s, String p){
         if(p.length() == 0){
             if(s.length() == 0) return true;
@@ -29,5 +30,11 @@ public class Solution {
             }
     
         }
+    }
+    public static void main(String[] args){
+        String s = "abcaa";
+        String p = "a.*a";
+        Solution sol = new Solution();
+        System.out.println(sol.isMatch(s, p)); 
     }
 }
