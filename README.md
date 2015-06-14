@@ -13,7 +13,7 @@ Here is the question list:
 * 6. ZigZag Conversion (3) 
 * 7. Reverse Integer(2) 
 * 8. String to Integer(2) 
-* 9. Palidrome Number(2)
+* 9. Palidrome Number(2) (Reverse, Generic)
 
 
 
