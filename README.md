@@ -12,6 +12,8 @@ Here is the question list:
 * 5. Longest Palindromic Substring (3) (Brute force, Dynamic Programming) 
 * 6. ZigZag Conversion (3) 
 * 7. Reverse Integer(2) 
+* 8. String to Integer(2) 
+
 
 
 For now only implement in two languages: Java and JavaScript.
