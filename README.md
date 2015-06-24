@@ -21,6 +21,7 @@ Here is the question list:
 * 14.  Longest Common Prefix(1) 
 * 15.  3Sum(2) 
 * 16.  3Sum Closest(2) 
+* 17.  Letter Combinations of a Phone Number(1) 
 
 
 For now only implement in two languages: Java and JavaScript.
