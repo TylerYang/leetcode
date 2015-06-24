@@ -24,6 +24,7 @@ Here is the question list:
 * 17.  Letter Combinations of a Phone Number(1) 
 * 18.  4Sum => kSum(3)
 * 19.  Remove Nth Node From End of List(2) corner case 
+* 20.  Valid Parentheses(1) 
  
 
 
