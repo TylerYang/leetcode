@@ -27,7 +27,7 @@ Here is the question list:
 * 20.  Valid Parentheses(1) 
 * 21.  Merge Two Sorted lists(1) 
 * 22.  Generate Parenthesis(2)
-* 23.  Merge K sorted Lists(2) (merge sort, priority queue) 
+* 23.  Merge K sorted Lists(2) (merge sort, priority queue, my priority queue) 
 
 
 For now only implement in two languages: Java and JavaScript.
