@@ -28,6 +28,10 @@ Here is the question list:
 * 21.  Merge Two Sorted lists(1) 
 * 22.  Generate Parenthesis(2)
 * 23.  Merge K sorted Lists(2) (merge sort, priority queue, my priority queue) 
+* 24.  Swap Nodes in Paris(1)
+* 25.  Reverse Nodes In K-Group(2)
+* 26.  Remove Duplicates Form Sorted Arrays(1)
+* 27.  Remove Element(1)
 
 
 For now only implement in two languages: Java and JavaScript.
