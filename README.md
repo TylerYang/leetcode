@@ -32,6 +32,7 @@ Here is the question list:
 * 25.  Reverse Nodes In K-Group(2)
 * 26.  Remove Duplicates Form Sorted Arrays(1)
 * 27.  Remove Element(1)
+* 28.  Implement strStr() (3) (Brute Force, KMP)
 
 
 For now only implement in two languages: Java and JavaScript.
