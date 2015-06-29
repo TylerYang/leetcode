@@ -33,9 +33,10 @@ Here is the question list:
 * 26.  Remove Duplicates Form Sorted Arrays(1)
 * 27.  Remove Element(1)
 * 28.  Implement strStr() (3) (Brute Force, KMP)
+* 29.  Divide Two Integers (4) (Corner case)
 
 
-For now only implement in two languages: Java and JavaScript.
+
 
 
 
