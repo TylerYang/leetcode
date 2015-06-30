@@ -6,7 +6,7 @@ public class Solution {
         while(i > 0 && nums[i - 1] >= nums[i--]){}
 
         if(i == 0 && nums[i] > nums[i - 1]) {
-            Arrays.sort(nums);
+            reverseBetween(nums, 0, nums.length - 1);
         } else {
             int j = i + 1;
             while(j < nums.length - 1 && nums[j + 1] > nums[i]) j++;
@@ -15,8 +15,19 @@ public class Solution {
             nums[i] = nums[j];
             nums[j] = tmp;
             
-            Arrays.sort(nums, i + 1, nums.length);
+            reverseBetween(nums, i + 1, nums.length - 1);
         }
         return;
+    }
+    private void reverseBetween(int[] nums, int left, int right) {
+        while(left < right) {
+            int tmp = nums[left];
+            nums[left] = nums[right];
+            nums[right] = tmp;
+            
+            left++;
+            right--;
+        }
+        
     }
 }
