@@ -34,7 +34,7 @@ Here is the question list:
 * 27.  Remove Element(1)
 * 28.  Implement strStr() (3) (Brute Force, KMP)
 * 29.  Divide Two Integers (4) (Corner case)
-
+* 30.  Substring with Concatenation of All Words (4)
 
 
 
