@@ -35,7 +35,8 @@ Here is the question list:
 * 28.  Implement strStr() (3) (Brute Force, KMP)
 * 29.  Divide Two Integers (4) (Corner case)
 * 30.  Substring with Concatenation of All Words (4)
-* 31.  Next Permutation
+* 31.  Next Permutation (2)
+* 32.  Longest Valid Parentheses (3)
 
 
 
