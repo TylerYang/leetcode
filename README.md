@@ -37,6 +37,7 @@ Here is the question list:
 * 30.  Substring with Concatenation of All Words (4)
 * 31.  Next Permutation (2)
 * 32.  Longest Valid Parentheses (3)
+* 33.  Search in Rotated Sorted Array (2)
 
 
 
