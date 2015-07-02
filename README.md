@@ -41,6 +41,7 @@ Here is the question list:
 * 34.  Search For a Range (2)
 * 35.  Search Insert Position (2)
 * 36.  Valid Suduko (2)
+* 37.  Sudoku Solver (3)
 
 
 
