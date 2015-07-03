@@ -45,6 +45,7 @@ Here is the question list:
 * 38.  Count and Say (1)
 * 39.  Combination Sum(1)
 * 40.  Combination SumII(1)
+* 41.  First Missing Positive(1)
 
 
 
