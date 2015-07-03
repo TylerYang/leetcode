@@ -44,6 +44,7 @@ Here is the question list:
 * 37.  Sudoku Solver (3)
 * 38.  Count and Say (1)
 * 39.  Combination Sum(1)
+* 40.  Combination SumII(1)
 
 
 
