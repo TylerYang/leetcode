@@ -46,6 +46,7 @@ Here is the question list:
 * 39.  Combination Sum(1)
 * 40.  Combination SumII(1)
 * 41.  First Missing Positive(1)
+* 42.  Trapping Rain Water(3)
 
 
 
