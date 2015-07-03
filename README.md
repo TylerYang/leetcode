@@ -43,6 +43,7 @@ Here is the question list:
 * 36.  Valid Suduko (2)
 * 37.  Sudoku Solver (3)
 * 38.  Count and Say (1)
+* 39.  Combination Sum(1)
 
 
 
