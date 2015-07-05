@@ -47,7 +47,7 @@ Here is the question list:
 * 40.  Combination SumII (1)
 * 41.  First Missing Positive (1)
 * 42.  Trapping Rain Water (3)
-* 43.  Multiply Strings(2)
+* 43.  Multiply Strings(3) *
 
 
 
