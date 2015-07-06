@@ -53,7 +53,8 @@ Here is the question list:
 * 46.  Permutation (2) (recursive, iterate)
 * 47.  PermutationII (2) 
 * 48.  Rotate Image(2) 
-* 49.  Anagrams(2) 
+* 49.  Anagrams (2) 
+* 50.  Pow(x, n) (3) 
 
 
 
