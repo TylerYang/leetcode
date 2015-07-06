@@ -50,6 +50,8 @@ Here is the question list:
 * 43.  Multiply Strings (3) *
 * 44.  Wildcard Matching (5) *
 * 45.  Jump GameII (2)
+* 46.  Permutation (2) (recursive, iterate)
+
 
 
 
