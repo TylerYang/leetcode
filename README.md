@@ -51,6 +51,7 @@ Here is the question list:
 * 44.  Wildcard Matching (5) *
 * 45.  Jump GameII (2)
 * 46.  Permutation (2) (recursive, iterate)
+* 47.  PermutationII (2) 
 
 
 
