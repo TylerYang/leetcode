@@ -52,6 +52,7 @@ Here is the question list:
 * 45.  Jump GameII (2)
 * 46.  Permutation (2) (recursive, iterate)
 * 47.  PermutationII (2) 
+* 48.  Rotate Image(2) 
 
 
 
