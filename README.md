@@ -47,8 +47,9 @@ Here is the question list:
 * 40.  Combination SumII (1)
 * 41.  First Missing Positive (1)
 * 42.  Trapping Rain Water (3)
-* 43.  Multiply Strings(3) *
-* 44.  Wildcard Matching(5) *
+* 43.  Multiply Strings (3) *
+* 44.  Wildcard Matching (5) *
+* 45.  Jump GameII (2)
 
 
 
