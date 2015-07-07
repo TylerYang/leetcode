@@ -32,7 +32,7 @@ public class Solution {
                         ld[j - i + n - 1] = 1;
                         rd[i + j] = 1;
                         cStack.push(j);
-                        initJ = -1;
+                        j = -1;
                         i++;
                     }
                 }    
