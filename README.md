@@ -56,6 +56,7 @@ Here is the question list:
 * 49.  Anagrams (2) 
 * 50.  Pow(x, n) (3) 
 * 51.  N-Queens (Recursive, Iterative)
+* 52.  N-Queens II(Recursive, Iterative)
 
 
 
