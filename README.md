@@ -58,6 +58,7 @@ Here is the question list:
 * 51.  N-Queens (4) (Recursive, Iterative)
 * 52.  N-QueensII (4) (Recursive, Iterative)
 * 53.  Maximun SubArray (3) (Divide and Conquer)
+* 54.  Spiral Matrix (2)
 
 
 
