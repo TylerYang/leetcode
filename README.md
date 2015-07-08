@@ -60,6 +60,7 @@ Here is the question list:
 * 53.  Maximun SubArray (3) (Divide and Conquer)
 * 54.  Spiral Matrix (2)
 * 55.  Jump Game (2)
+* 56.  Merge Intervals (4)
 
 
 
