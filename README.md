@@ -67,8 +67,10 @@ Here is the question list:
 * 60.  Permutation Sequence (3) *
 * 61.  Rotate List (1)
 * 62.  Unique Paths (1)
-* 62.  Unique PathsII (1)
-* 63.  Minimum Path Sum (1)
+* 63.  Unique PathsII (1)
+* 64.  Minimum Path Sum (1)
+* 65.  Valid Number (5) (DFA) ***
+
 
 
 
