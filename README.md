@@ -69,7 +69,8 @@ Here is the question list:
 * 62.  Unique Paths (1)
 * 63.  Unique PathsII (1)
 * 64.  Minimum Path Sum (1)
-* 65.  Valid Number (5) (DFA) ***
+* 65.  Valid Number (5) (DFA) *
+* 66.  Plus One (1)
 
 
 
