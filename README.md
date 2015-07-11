@@ -74,6 +74,7 @@ Here is the question list:
 * 67.  Add Binary (1)
 * 68.  Text Justification (2)
 * 69.  Sqrt() (2)
+* 70.  Climbing Stairs (1)
 
 
 
