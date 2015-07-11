@@ -71,6 +71,7 @@ Here is the question list:
 * 64.  Minimum Path Sum (1)
 * 65.  Valid Number (5) (DFA) *
 * 66.  Plus One (1)
+* 67.  Add Binary (1)
 
 
 
