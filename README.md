@@ -73,6 +73,7 @@ Here is the question list:
 * 66.  Plus One (1)
 * 67.  Add Binary (1)
 * 68.  Text Justification (2)
+* 69.  Sqrt() (2)
 
 
 
