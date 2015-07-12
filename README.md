@@ -77,6 +77,7 @@ Here is the question list:
 * 70.  Climbing Stairs (1)
 * 71.  Simplify Path (3)
 * 72.  Edit Distance (5) *
+* 73.  Set Matrix Zeros (1) 
 
 
 
