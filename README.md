@@ -75,6 +75,7 @@ Here is the question list:
 * 68.  Text Justification (2)
 * 69.  Sqrt() (2)
 * 70.  Climbing Stairs (1)
+* 72.  Edit Distance (5) *
 
 
 
