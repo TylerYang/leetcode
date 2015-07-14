@@ -81,6 +81,8 @@ Here is the question list:
 * 74.  Search a 2D Matrix (3) * (linear solution & nlgn solution)
 * 75.  Sort Colors (2) 
 * 76.  Minimum Window Substring (5)
+* 77.  Combinations (2)
+
 
 
 
