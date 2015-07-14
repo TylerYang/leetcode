@@ -82,6 +82,7 @@ Here is the question list:
 * 75.  Sort Colors (2) 
 * 76.  Minimum Window Substring (5)
 * 77.  Combinations (2)
+* 78.  Subsets (1)
 
 
 
