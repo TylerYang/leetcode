@@ -87,7 +87,8 @@ Here is the question list:
 * 80.  Remove Duplicates From Sorted ArrayII (1)
 * 81.  Search In Rotated Sorted ArrayII (2)
 * 82.  Remove Duplicates From Sorted ListII (1)
-* 82.  Remove Duplicates From Sorted List (1)
+* 83.  Remove Duplicates From Sorted List (1)
+* 84.  Largest Rectangle in Histogram (5) *
 
 
 
