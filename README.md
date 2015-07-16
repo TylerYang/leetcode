@@ -91,6 +91,7 @@ Here is the question list:
 * 84.  Largest Rectangle in Histogram (5) *
 * 85.  Maximal Rectangle (5) *
 * 86.  Partition List (1)
+* 87.  Scramble String (5) * (Recursive, Dynamic Programming)
 
 
 
