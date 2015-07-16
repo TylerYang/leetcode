@@ -89,6 +89,7 @@ Here is the question list:
 * 82.  Remove Duplicates From Sorted ListII (1)
 * 83.  Remove Duplicates From Sorted List (1)
 * 84.  Largest Rectangle in Histogram (5) *
+* 85.  Maximal Rectangle (5) *
 
 
 
