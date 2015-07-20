@@ -100,5 +100,6 @@ Here is the question list:
 * 93.  Restore IP Addresses (2)
 * 94.  Binary Tree Inorder Traversal (2)
 * 95.  Unique Binary Search TreesII (3)
+* 96.  Unique Binary Search Trees (2)
 
 
