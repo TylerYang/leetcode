@@ -104,6 +104,8 @@ Here is the question list:
 * 97.  Interleaving String (4) * (Dynamic Programming)
 * 98.  Validate Binary Search Tree (2)
 * 99.  Recover Binary Search Tree (4) * (Stack, Morris Traversal)
+* 100. Same Tree (2)
+* 101. Symmetric Tree (2)
 
 
 
