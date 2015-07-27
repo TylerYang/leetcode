@@ -109,6 +109,7 @@ Here is the question list:
 * 102. Binary Tree Level Order Traversal (3)
 * 103. Binary Tree Zigzag Level Order Traversal (3)
 * 104. Maximum Depth of Binary Tree (2)
-* 105. Construct Binary Tree from Preorder and InorderTraversal (3) (Recursive, Iterative)
+* 105. Construct Binary Tree from Preorder and Inorder Traversal (3) (Recursive, Iterative)
+* 106. Construct Binary Tree from Inorder and Postorder Traversal (3) (Recursive, Iterative)
 
 
