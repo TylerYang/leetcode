@@ -124,3 +124,4 @@ Here is the question list:
 * 117. Populating Next Right Pointers in Each Node (5) *
 * 118. Pascal's Triangle (1)
 * 119. Pascal's TriangleII (2)
+* 120. Triangle (4)
