@@ -126,3 +126,4 @@ Here is the question list:
 * 119. Pascal's TriangleII (2)
 * 120. Triangle (4)
 * 121. Best Time to Buy and Sell Stock (2) (Dynamic Programming)
+* 122. Best Time to Buy and Sell StockII (3) (Greedy)
