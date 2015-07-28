@@ -122,3 +122,4 @@ Here is the question list:
 * 115. Distinct Subsequences (5) * (Dynamic Programming)
 * 116. Populating Next Right Pointers in Each Node (4)
 * 117. Populating Next Right Pointers in Each Node (5) *
+* 118. Pascal's Triangle (1)
