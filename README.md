@@ -132,5 +132,6 @@ Here is the question list:
 * 125. Valid Palidrome (2)
 * 126. Word LadderII (5) *
 * 127. Word Ladder (4) *
+* 128. Longest Consecutive Sequence (3)
 
 
