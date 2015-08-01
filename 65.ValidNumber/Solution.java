@@ -6,8 +6,8 @@ public class Solution {
         for(int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
             if(isCharacter(c)) {
-                if(state == 0) {
-                    state = 1;
+                if(state == 0 || state == 5) {
+                    state++;
                 } else {
                     return false;
                 }
@@ -18,7 +18,7 @@ public class Solution {
                 } else if(state <= 4) {
                     state = 4;
                     flag = 1;
-                } else if(state <= 5) {
+                } else if(state >= 5) {
                     state = 7;
                 }
             } else if(isDot(c)) {
