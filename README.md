@@ -140,5 +140,6 @@ Here is the question list:
 * 133. Clone Graph (2)
 * 134. Gas Station (3)
 * 135. Candy (5) *
+* 136. Single Number (2)
 
 
