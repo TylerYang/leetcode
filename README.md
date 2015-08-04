@@ -142,5 +142,6 @@ Here is the question list:
 * 135. Candy (5) *
 * 136. Single Number (2)
 * 137. Single NumberII (5) *
+* 138. Copy List with Random Pointer (3)
 
 
