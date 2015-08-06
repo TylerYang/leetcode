@@ -148,6 +148,7 @@ Here is the question list:
 * 141. Linked List Cycle (3)
 * 142. Linked List CycleII (5) *
 * 143. Reordre List (3)
+* 144. Binary Tree Preorder Traversal (1)
 
 
 
