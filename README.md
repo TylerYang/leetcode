@@ -150,6 +150,7 @@ Here is the question list:
 * 143. Reordre List (3)
 * 144. Binary Tree Preorder Traversal (1)
 * 145. Binary Tree Postorder Traversal (3) (Morris Traversal) *
+* 146. LUR Cache (4) *
 
 
 
