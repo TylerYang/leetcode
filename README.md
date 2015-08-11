@@ -159,6 +159,7 @@ Here is the question list:
 * 152. Maximum Product Subarray (3) * (Dynamic Programming)
 * 153. Find Minimum in Rotated Sorted Array (3) * 
 * 154. Find Minimum in Rotated Sorted ArrayII (4) *
+* 155. Min Stack (2)
 
 
 
