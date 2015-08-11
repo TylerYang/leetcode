@@ -152,6 +152,9 @@ Here is the question list:
 * 145. Binary Tree Postorder Traversal (3) (Morris Traversal) *
 * 146. LUR Cache (4) *
 * 147. Insertion Sort List (2)
+* 148. Sort List (5) ** (Paper)
+* 149. Max Points on a Line (3) 
+
 
 
 
