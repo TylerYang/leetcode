@@ -57,7 +57,7 @@ Here is the question list:
 * 50.  Pow(x, n) (3) 
 * 51.  N-Queens (4) (Recursive, Iterative)
 * 52.  N-QueensII (4) (Recursive, Iterative)
-* 53.  Maximun SubArray (3) (Divide and Conquer)
+* 53.  Maximun SubArray (3) * (Divide and Conquer, Linear Solution)
 * 54.  Spiral Matrix (2)
 * 55.  Jump Game (2)
 * 56.  Merge Intervals (4)
