@@ -157,6 +157,8 @@ Here is the question list:
 * 150. Evaluate Reverse Polish Notation (2)
 * 151. Reverse Words in a String (2)
 * 152. Maximum Product Subarray (3) * (Dynamic Programming)
+* 153. Find Minimum in Rotated Sorted Array (3) * 
+
 
 
 
