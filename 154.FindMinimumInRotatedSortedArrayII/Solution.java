@@ -3,20 +3,12 @@ public class Solution {
         int L = 0, R = nums.length - 1;
         while(L < R) {
             int M = (L + R) / 2;
-            if(nums[M] <= nums[R]) {
-                if(nums[M] < nums[R]) {
-                    R = M;
-                } else {
-                    int i = M + 1;
-                    while(i < R && nums[i] == nums[M]) i++;
-                    if(i == R) {
-                        R = M;
-                    } else {
-                        L = M + 1;    
-                    }
-                }
-            } else {
+            if(nums[M] < nums[R]) {
+                R = M;
+            } else if(nums[M] > nums[R]){
                 L = M + 1;
+            } else {
+                R--;
             }
         }
         return nums[L];
