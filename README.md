@@ -156,6 +156,7 @@ Here is the question list:
 * 149. Max Points on a Line (3) 
 * 150. Evaluate Reverse Polish Notation (2)
 * 151. Reverse Words in a String (2)
+* 152. Maximum Product Subarray (3) * (Dynamic Programming)
 
 
 
