@@ -160,6 +160,7 @@ Here is the question list:
 * 153. Find Minimum in Rotated Sorted Array (3) * 
 * 154. Find Minimum in Rotated Sorted ArrayII (4) *
 * 155. Min Stack (2)
+* 160. Intersection of Two Linked Lists (2)
 
 
 
