@@ -161,6 +161,7 @@ Here is the question list:
 * 154. Find Minimum in Rotated Sorted ArrayII (4) *
 * 155. Min Stack (2)
 * 160. Intersection of Two Linked Lists (2)
+* 162. Find Peak Element (2) (Binary Search)
 
 
 
