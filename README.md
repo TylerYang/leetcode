@@ -156,7 +156,7 @@ Here is the question list:
 * 149. Max Points on a Line (3) 
 * 150. Evaluate Reverse Polish Notation (2)
 * 151. Reverse Words in a String (2)
-* 152. Maximum Product Subarray (3) * (Dynamic Programming)
+* 152. Maximum Product Subarray (3) (Dynamic Programming) *
 * 153. Find Minimum in Rotated Sorted Array (3) * 
 * 154. Find Minimum in Rotated Sorted ArrayII (4) *
 * 155. Min Stack (2)
@@ -170,10 +170,11 @@ Here is the question list:
 * 171. Excel Sheet Column Number (2)
 * 172. Factorial Trailing Zeroes (3)
 * 173. Binary Search Tree Iterator (3) *
-* 174. Dungeon Game (5) * (Dynamic Programming)
+* 174. Dungeon Game (5) (Dynamic Programming) *
 * 179. Largest Number (3) 
 * 187. Repeated DNA Sequences (3) *
-* 188. Best Time to Buy and Sell Stock IV (5) *
+* 188. Best Time to Buy and Sell Stock IV (5) (Dynamic Programming) *
+* 189. Rotate Array (3) (Programming Perls) (Swap, Reverse)
 
 
 
