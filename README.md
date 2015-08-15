@@ -175,7 +175,8 @@ Here is the question list:
 * 187. Repeated DNA Sequences (3) *
 * 188. Best Time to Buy and Sell Stock IV (5) (Dynamic Programming) *
 * 189. Rotate Array (3) (Programming Perls) (Swap, Reverse)
-* 190. Reverser Bits (3)
+* 190. Reverse Bits (2)
+* 191. Number of 1 Bits (2)
 
 
 
