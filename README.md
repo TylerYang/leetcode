@@ -183,8 +183,9 @@ Here is the question list:
 * 201. Bitwise AND of Numbers Range (Bit manipulation) *
 * 202. Happy Number (2)
 * 203. Remove Linked List Elements (1)
-* 204. Count Primes (2)
+* 204. Count Primes (2) * 
 * 205. Isomorphic Strings (2)
+* 206. Reverse Linked List (2) (Iterative, Recursive)
 
 
 
