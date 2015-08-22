@@ -188,7 +188,9 @@ Here is the question list:
 * 206. Reverse Linked List (2) (Iterative, Recursive)
 * 207. Course Schedule (5) (Topological Sort, DFS)
 * 208. Implement Trie (Prefix Tree) (3)
-* 209. Manimum Size Subarray Sum (3) (Slide Window, Sort, Priority Queue)
+* 209. Minimum Size Subarray Sum (3) (Slide Window)
+* 210. Course ScheduleII (3) (Topological Sort) *
+
 
 
 
