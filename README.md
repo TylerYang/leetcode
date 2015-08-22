@@ -190,6 +190,8 @@ Here is the question list:
 * 208. Implement Trie (Prefix Tree) (3)
 * 209. Minimum Size Subarray Sum (3) (Slide Window)
 * 210. Course ScheduleII (3) (Topological Sort) *
+* 211. Add and Search Word - Data structure design (Trie) *
+
 
 
 
