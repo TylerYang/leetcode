@@ -191,7 +191,7 @@ Here is the question list:
 * 209. Minimum Size Subarray Sum (3) (Slide Window)
 * 210. Course ScheduleII (3) (Topological Sort) *
 * 211. Add and Search Word - Data structure design (Trie) *
-* 212. Word Search II (Trie, Backtracking) *
+* 212. Word Search II (Trie, Backtracking) (Trie, BackTracking) *
 
 
 
