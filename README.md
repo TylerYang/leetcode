@@ -193,6 +193,7 @@ Here is the question list:
 * 211. Add and Search Word - Data structure design (Trie) *
 * 212. Word Search II (Trie, Backtracking) (Trie, BackTracking) *
 * 213. House Robber II (Dynamic Programming) *
+* 214. Shortest Palindrome (String) *
 
 
 
