@@ -9,14 +9,14 @@ public class Solution {
     
         int l = next[next.length - 1] + 1;
 		
-		if(l == str.length() - 1 || l == s.length()) {
-			return s;
-		}
+	if(l == str.length() - 1 || l == s.length()) {
+		return s;
+	}
 
-		if(l > s.length()) {
-			l++;
-		}
-		l %= s.length();
+	if(l > s.length()) {
+		l++;
+	}
+	l %= s.length();
     	
         return new StringBuffer(s.substring(l)).reverse().toString() + s; 
     }
@@ -43,15 +43,15 @@ public class Solution {
         Solution sol = new Solution();
 		
         String s = "ba";
-		System.out.println(s + ":");
+	System.out.println(s + ":");
         System.out.println(sol.shortestPalindrome(s));
 		
         s = "aabba";
-		System.out.println(s + ":");
+	System.out.println(s + ":");
         System.out.println(sol.shortestPalindrome(s));
 		
         s = "aba";
-		System.out.println(s + ":");
+	System.out.println(s + ":");
         System.out.println(sol.shortestPalindrome(s));
 		
 		
