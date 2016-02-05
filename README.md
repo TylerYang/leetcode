@@ -194,6 +194,7 @@ Here is the question list:
 * 212. Word Search II (Trie, Backtracking) (Trie, BackTracking) *
 * 213. House Robber II (Dynamic Programming) *
 * 214. Shortest Palindrome (String) *
+* 332. Reconstruct Itinerary (Graph)  
 
 
 
