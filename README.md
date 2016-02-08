@@ -194,7 +194,8 @@ Here is the question list:
 * 212. Word Search II (Trie, Backtracking) (Trie, BackTracking) *
 * 213. House Robber II (Dynamic Programming) *
 * 214. Shortest Palindrome (String) *
-* 329. Odd Even LinkedList(Linked List)
+* 327. Count of Range Sum (Binary Indexed Tree / Segent Tree) *****
+* 328. Odd Even LinkedList(Linked List)
 * 329. Longest Increasing Path in a Matrix (DFS, Topological Sort, Memoization) *
 * 330. Pathcing Array (Greedy) *
 * 331. Verify Preorer Serialization of a Binary Tree (Stack)
