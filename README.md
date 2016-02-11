@@ -79,7 +79,7 @@ Here is the question list:
 * 72.  Edit Distance (5) *
 * 73.  Set Matrix Zeros (1) 
 * 74.  Search a 2D Matrix (3) * (linear solution & nlgn solution)
-* 75.  Sort Colors (2) 
+* 75.  Sort Colors (2)
 * 76.  Minimum Window Substring (5)
 * 77.  Combinations (2)
 * 78.  Subsets (1)
