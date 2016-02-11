@@ -15,13 +15,13 @@ public class Solution {
         map.put(Long.MAX_VALUE, 0);
         map.put(Long.MIN_VALUE, 0);
 
-        int count = 1;
+        int c = 1;
         for(Long key : map.keySet()) {
-          map.put(key, count++);
+          map.put(key, c++);
         }
 
         FenwickTree ft = new FenwickTree(nums.length + 2);
-        count = 0;
+        int count = 0;
         long left, right;
         for(int i = 0; i < sums.length; i++) {
           left = map.ceilingKey(sums[i] - upper);
@@ -38,12 +38,14 @@ public class Solution {
     public static void main(String[] args) {
       Solution sol = new Solution();
       int[] nums = {-2, 5, -1};
+      //sums{-2, 3, 2}
+      //map MIN_VALUE:1 -2:2 2:3 3:4 MAX_VALUE:5
       int lower = -2;
       int upper = 2;
       System.out.println(sol.countRangeSum(nums, lower, upper));
-
     }
 }
+
 class FenwickTree {
   private int len;
   private int[] arr;
@@ -68,4 +70,11 @@ class FenwickTree {
     }
     return s;
   }
+  public void printArray() {
+    for(int i = 0; i < arr.length; i++) {
+      System.out.print(arr[i] + " ");
+    }
+    System.out.println("");
+  }
 }
+
