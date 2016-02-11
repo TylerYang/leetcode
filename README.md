@@ -195,13 +195,14 @@ Here is the question list:
 * 213. House Robber II (Dynamic Programming) *
 * 214. Shortest Palindrome (String) *
 
-* 326. Power of Three ()
+* 324. Wiggle Sort II (Quick Select, Three Way Partition) ****
+* 326. Power of Three (math)
 * 327. Count of Range Sum (Binary Indexed Tree / Segent Tree) *****
 * 328. Odd Even LinkedList(Linked List)
 * 329. Longest Increasing Path in a Matrix (DFS, Topological Sort, Memoization) *
 * 330. Pathcing Array (Greedy) *
 * 331. Verify Preorer Serialization of a Binary Tree (Stack)
-* 332. Reconstruct Itinerary (Graph)  
+* 332. Reconstruct Itinerary (Graph)
 
 
 

@@ -8,9 +8,7 @@ public class Solution {
       int median = select(nums, (len - 1)/2);
       int first = 0, mid = 0, last = len - 1;
 
-      printArray(nums);
-
-      //Three Way Partition by Edsger Dijkstra(check Dutch National Flag Problem)
+      //Three Way Partition by Edsger Dijkstra(Dutch National Flag Problem)
       while(mid <= last) {
         if(nums[vi(len, mid)] > median)  {
           swap(nums, vi(len, first++), vi(len, mid++));
