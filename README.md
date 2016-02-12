@@ -195,6 +195,7 @@ Here is the question list:
 * 213. House Robber II (Dynamic Programming) *
 * 214. Shortest Palindrome (String) *
 
+* 322. Coin Change (Dynamic Programming) *
 * 324. Wiggle Sort II (Quick Select, Three Way Partition) ****
 * 326. Power of Three (math)
 * 327. Count of Range Sum (Binary Indexed Tree / Segent Tree) *****
