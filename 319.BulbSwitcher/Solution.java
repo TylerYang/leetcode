@@ -9,7 +9,7 @@ public class Solution {
   }
   public static void main(String[] args) {
     Solution sol = new Solution();
-    int n = 2;
+    int n = 0;
     System.out.println(sol.bulbSwitch(n));
   }
 }

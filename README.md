@@ -195,6 +195,7 @@ Here is the question list:
 * 213. House Robber II (Dynamic Programming) *
 * 214. Shortest Palindrome (String) *
 
+* 318. Maximum Product of Word Length(Bit Manimulation)
 * 319. Bulb Switcher(Math)
 * 321. Create Maximum Number(Greedy) *****
 * 322. Coin Change (Dynamic Programming) *
