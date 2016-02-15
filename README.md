@@ -195,14 +195,15 @@ Here is the question list:
 * 213. House Robber II (Dynamic Programming) *
 * 214. Shortest Palindrome (String) *
 
-* 316. Remove Duplicate Letters()*
+* 315. Count of Smaller Numbers After Self(Binary Indexed Tree / Segment Tree)*****
+* 316. Remove Duplicate Letters(Stack, Greedy)*
 * 318. Maximum Product of Word Length(Bit Manimulation)
 * 319. Bulb Switcher(Math)
 * 321. Create Maximum Number(Greedy) *****
 * 322. Coin Change (Dynamic Programming) *
 * 324. Wiggle Sort II (Quick Select, Three Way Partition) ****
 * 326. Power of Three (math)
-* 327. Count of Range Sum (Binary Indexed Tree / Segent Tree) *****
+* 327. Count of Range Sum (Binary Indexed Tree / Segment Tree) *****
 * 328. Odd Even LinkedList(Linked List)
 * 329. Longest Increasing Path in a Matrix (DFS, Topological Sort, Memoization) *
 * 330. Pathcing Array (Greedy) *
