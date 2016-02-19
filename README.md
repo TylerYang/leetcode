@@ -195,6 +195,7 @@ Here is the question list:
 * 213. House Robber II (Dynamic Programming) *
 * 214. Shortest Palindrome (String) *
 
+* 313. Super Ugly Number(Math, Heap)****
 * 315. Count of Smaller Numbers After Self(Binary Indexed Tree / Segment Tree)*****
 * 316. Remove Duplicate Letters(Stack, Greedy)*
 * 318. Maximum Product of Word Length(Bit Manimulation)
