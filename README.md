@@ -195,11 +195,12 @@ Here is the question list:
 * 213. House Robber II (Dynamic Programming) *
 * 214. Shortest Palindrome (String) *
 
+* 312. Burst Ballons (Divide and Conquer, DP) ************************
 * 313. Super Ugly Number(Math, Heap)****
 * 315. Count of Smaller Numbers After Self(Binary Indexed Tree / Segment Tree)*****
 * 316. Remove Duplicate Letters(Stack, Greedy)*
 * 318. Maximum Product of Word Length(Bit Manimulation)
-* 319. Bulb Switcher(Math)
+* 319. Bulb Switcher(Math) 
 * 321. Create Maximum Number(Greedy) *****
 * 322. Coin Change (Dynamic Programming) *
 * 324. Wiggle Sort II (Quick Select, Three Way Partition) ****
