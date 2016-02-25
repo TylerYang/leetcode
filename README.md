@@ -195,6 +195,8 @@ Here is the question list:
 * 213. House Robber II (Dynamic Programming) *
 * 214. Shortest Palindrome (String) *
 
+    
+* 306. Additive Number (NoTag)
 * 307. Range Sum Query(Fenwick Tree, SegmentTree) ******
 * 309. Best time to buy and sell with cooldown(Dynamic Programming) ************************
 * 310. Minimum Height Tree (Graph, BFS) ********
