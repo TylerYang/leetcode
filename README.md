@@ -196,6 +196,7 @@ Here is the question list:
 * 214. Shortest Palindrome (String) *
 
     
+* 304. Range Sum Query 2D - Immutable (Dynamic Programming) 
 * 306. Additive Number (NoTag)
 * 307. Range Sum Query(Fenwick Tree, SegmentTree) ******
 * 309. Best time to buy and sell with cooldown(Dynamic Programming) ************************
