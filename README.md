@@ -196,6 +196,7 @@ Here is the question list:
 * 214. Shortest Palindrome (String) *
 
     
+* 301. Remove Invalid Parentheses ()
 * 303. Range Sum Query - Immutable (Dynamic Programming)
 * 304. Range Sum Query 2D - Immutable (Dynamic Programming) 
 * 306. Additive Number (NoTag)
