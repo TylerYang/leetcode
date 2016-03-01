@@ -195,6 +195,7 @@ Here is the question list:
 * 213. House Robber II (Dynamic Programming) *
 * 214. Shortest Palindrome (String) *
 
+* 299. Bulls and Cows 
 * 300. Longest Increasing Subsequence (Dynamic Programming)
 * 301. Remove Invalid Parentheses ()
 * 303. Range Sum Query - Immutable (Dynamic Programming)
