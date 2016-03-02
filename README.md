@@ -195,6 +195,7 @@ Here is the question list:
 * 213. House Robber II (Dynamic Programming) *
 * 214. Shortest Palindrome (String) *
 
+* 290. Word Pattern
 * 295. Find Median from Data Stream (Heap)
 * 297. Serialize and Deserialize Binary Tree
 * 299. Bulls and Cows 
