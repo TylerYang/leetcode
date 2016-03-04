@@ -195,6 +195,7 @@ Here is the question list:
 * 213. House Robber II (Dynamic Programming) *
 * 214. Shortest Palindrome (String) *
 
+* 287. Find the Duplicate Number
 * 289. Game of Life
 * 290. Word Pattern
 * 295. Find Median from Data Stream (Heap)
