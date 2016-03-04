@@ -195,6 +195,7 @@ Here is the question list:
 * 213. House Robber II (Dynamic Programming) *
 * 214. Shortest Palindrome (String) *
 
+* 283. Move Zeroes
 * 284. Peeking Iterator
 * 287. Find the Duplicate Number
 * 289. Game of Life
