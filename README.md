@@ -196,6 +196,7 @@ Here is the question list:
 * 214. Shortest Palindrome (String) *
 
 * 274. H-Index
+* 275. H-IndexII
 * 278. First Bad Version
 * 279. Perfect Squares
 * 282. Expression Add Operators
