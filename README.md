@@ -195,6 +195,7 @@ Here is the question list:
 * 213. House Robber II (Dynamic Programming) *
 * 214. Shortest Palindrome (String) *
 
+* 278. First Bad Version
 * 279. Perfect Squares
 * 282. Expression Add Operators
 * 283. Move Zeroes
