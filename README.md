@@ -195,6 +195,7 @@ Here is the question list:
 * 213. House Robber II (Dynamic Programming) *
 * 214. Shortest Palindrome (String) *
 
+* 263. Ugly Number
 * 264. Ugly Number II (Heap) *
 * 268. Missing Number
 * 273. Integer to English Words
