@@ -183,7 +183,7 @@ Here is the question list:
 * 201. Bitwise AND of Numbers Range (Bit manipulation) *
 * 202. Happy Number (2)
 * 203. Remove Linked List Elements (1)
-* 204. Count Primes (2) * 
+* 204. Count Primes (2) *
 * 205. Isomorphic Strings (2)
 * 206. Reverse Linked List (2) (Iterative, Recursive)
 * 207. Course Schedule (5) (Topological Sort, DFS)
@@ -195,6 +195,7 @@ Here is the question list:
 * 213. House Robber II (Dynamic Programming) *
 * 214. Shortest Palindrome (String) *
 
+* 264. Ugly Number II (Heap) *
 * 268. Missing Number
 * 273. Integer to English Words
 * 274. H-Index
@@ -218,17 +219,17 @@ Here is the question list:
 * 307. Range Sum Query(Fenwick Tree, SegmentTree) ******
 * 309. Best time to buy and sell with cooldown(Dynamic Programming) ************************
 * 310. Minimum Height Tree (Graph, BFS) ********
-* 312. Burst Ballons (Divide and Conquer, DP) ************************
-* 313. Super Ugly Number(Math, Heap)****
-* 315. Count of Smaller Numbers After Self(Binary Indexed Tree / Segment Tree)*****
-* 316. Remove Duplicate Letters(Stack, Greedy)*
+* 312. Burst Ballons (Divide and Conquer, DP) **********************
+* 313. Super Ugly Number(Math, Heap) ****
+* 315. Count of Smaller Numbers After Self(Binary Indexed Tree / Segment Tree) ****
+* 316. Remove Duplicate Letters(Stack, Greedy) *
 * 318. Maximum Product of Word Length(Bit Manimulation)
-* 319. Bulb Switcher(Math) 
-* 321. Create Maximum Number(Greedy) *****
+* 319. Bulb Switcher(Math) *
+* 321. Create Maximum Number(Greedy) ****
 * 322. Coin Change (Dynamic Programming) *
 * 324. Wiggle Sort II (Quick Select, Three Way Partition) ****
 * 326. Power of Three (math)
-* 327. Count of Range Sum (Binary Indexed Tree / Segment Tree) *****
+* 327. Count of Range Sum (Binary Indexed Tree / Segment Tree) ****
 * 328. Odd Even LinkedList(Linked List)
 * 329. Longest Increasing Path in a Matrix (DFS, Topological Sort, Memoization) *
 * 330. Pathcing Array (Greedy) *
