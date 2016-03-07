@@ -25,7 +25,6 @@ public class Solution {
             num.index = num.index + 1;
             pq.add(num);
         }
-        System.out.println(uglyList);
 
         return uglyList.get(n - 1);
     }
