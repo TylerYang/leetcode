@@ -195,8 +195,9 @@ Here is the question list:
 * 213. House Robber II (Dynamic Programming) *
 * 214. Shortest Palindrome (String) *
 
+* 241. Different Ways to Add Parentheses (Divide and Conquer) *
 * 242. Valid Anagram
-* 257. Binary Tree Paths
+* 257. Binary Tree Paths *
 * 263. Ugly Number
 * 264. Ugly Number II (Heap) *
 * 268. Missing Number
