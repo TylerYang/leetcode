@@ -196,6 +196,7 @@ Here is the question list:
 * 214. Shortest Palindrome (String) *
 
 
+* 230. Kth Smallest Element in a BST
 * 231. Power of Two
 * 232. Implement Queue using Stacks
 * 233. Number Of Digit One
