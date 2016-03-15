@@ -196,6 +196,7 @@ Here is the question list:
 * 214. Shortest Palindrome (String) *
 
 
+* 224. Basic Calculator
 * 225. Implement Stack Using Queues
 * 226. Invert Binary Tree
 * 227. Basic CalculatorII
