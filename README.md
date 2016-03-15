@@ -196,6 +196,7 @@ Here is the question list:
 * 214. Shortest Palindrome (String) *
 
 
+* 226. Invert Binary Tree
 * 227. Basic CalculatorII
 * 228. Summary Ranges
 * 229. Majority ElementII 
