@@ -195,7 +195,6 @@ Here is the question list:
 * 213. House Robber II (Dynamic Programming) *
 * 214. Shortest Palindrome (String) *
 
-
 * 224. Basic Calculator
 * 225. Implement Stack Using Queues
 * 226. Invert Binary Tree
