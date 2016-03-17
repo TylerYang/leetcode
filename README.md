@@ -196,6 +196,7 @@ Here is the question list:
 * 214. Shortest Palindrome (String) *
 
 
+* 221. Maximal Square
 * 222. Count Complete Tree Nodes (Binary Search) ** 
 * 223. Rectangle Area
 * 224. Basic Calculator
