@@ -195,7 +195,7 @@ Here is the question list:
 * 213. House Robber II (Dynamic Programming) *
 * 214. Shortest Palindrome (String) *
 
-
+* 217. Contains Duplicate
 * 218. The Skyline Problem
 * 219. Contains DuplicateII
 * 220. Contains DuplicateIII
