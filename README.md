@@ -196,6 +196,7 @@ Here is the question list:
 * 214. Shortest Palindrome (String) *
 
 
+* 218. The Skyline Problem
 * 219. Contains DuplicateII
 * 220. Contains DuplicateIII
 * 221. Maximal Square (Dynamic Programming) *
