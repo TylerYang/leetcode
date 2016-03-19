@@ -196,7 +196,8 @@ Here is the question list:
 * 214. Shortest Palindrome (String) *
 
 
-* 220. Contains DuplicateIII 
+* 219. Contains DuplicateII
+* 220. Contains DuplicateIII
 * 221. Maximal Square (Dynamic Programming) *
 * 222. Count Complete Tree Nodes (Binary Search) **
 * 223. Rectangle Area
@@ -205,7 +206,7 @@ Here is the question list:
 * 226. Invert Binary Tree
 * 227. Basic CalculatorII
 * 228. Summary Ranges
-* 229. Majority ElementII 
+* 229. Majority ElementII
 * 230. Kth Smallest Element in a BST
 * 231. Power of Two
 * 232. Implement Queue using Stacks
