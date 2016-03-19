@@ -196,6 +196,7 @@ Here is the question list:
 * 214. Shortest Palindrome (String) *
 
 
+* 220. Contains DuplicateIII 
 * 221. Maximal Square (Dynamic Programming) *
 * 222. Count Complete Tree Nodes (Binary Search) **
 * 223. Rectangle Area
