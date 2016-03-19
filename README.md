@@ -194,7 +194,7 @@ Here is the question list:
 * 212. Word Search II (Trie, Backtracking) (Trie, BackTracking) *
 * 213. House Robber II (Dynamic Programming) *
 * 214. Shortest Palindrome (String) *
-
+* 215. Kth LargestElement in an Array
 * 216. Combination Sum III 
 * 217. Contains Duplicate
 * 218. The Skyline Problem ** (PriorityQueue, BIT, SegmentTree)
