@@ -48,14 +48,14 @@ Here is the question list:
 * 41.  First Missing Positive (1)
 * 42.  Trapping Rain Water (3)
 * 43.  Multiply Strings (3) ** failed
-* 44.  Wildcard Matching (5) *
+* 44.  Wildcard Matching (5) * failed
 * 45.  Jump GameII (2)
 * 46.  Permutation (2) (recursive, iterative)
 * 47.  PermutationII (2) 
 * 48.  Rotate Image(2) 
 * 49.  Anagrams (2) 
 * 50.  Pow(x, n) (3) 
-* 51.  N-Queens (4) (Recursive, Iterative)
+* 51.  N-Queens (4) (Recursive, Iterative) failed
 * 52.  N-QueensII (4) (Recursive, Iterative)
 * 53.  Maximun SubArray (3) * (Divide and Conquer, Linear Solution)
 * 54.  Spiral Matrix (2)
