@@ -1,23 +1,20 @@
 public class Solution {
     public String getPermutation(int n, int k) {
-        char[] arr = new char[n];
-        int fac = 1;
-        for(int i = 0; i < n; i++) {
-            arr[i] = (char) ('1' + i);
-            fac *= i + 1;
-        } 
-        k = --k % fac;
-        fac /= n;
-        for(int i = 0; i < n - 1; i++) {
-            int selI = k / fac;
-            k %= fac;
-            fac /= n - i - 1;
-            char tmp = arr[selI + i];
-            for(int j = selI; j > 0; j--) {
-                arr[i + j] = arr[i + j - 1];
-            }
-            arr[i] = tmp;
+        List<Integer> num = new ArrayList<Integer>();
+        for (int i = 1; i <= n; i++) num.add(i);
+        int[] facts = new int[n];
+        facts[0] = 1;
+        for (int i = 1; i < n; i++) {
+            facts[i] = facts[i - 1] * i;
         }
-        return new String(arr);
+        k--;
+        StringBuffer sBuff = new StringBuffer();
+
+        for (int i = n; i > 0; i--) {
+            int idx = k / facts[i - 1];
+            k %= facts[i - 1];
+            sBuff.append(num.remove(idx));
+        }
+        return sBuff.toString();
     }
 }
