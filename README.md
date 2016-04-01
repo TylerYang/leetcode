@@ -76,7 +76,7 @@ Here is the question list:
 * 69.  Sqrt() (2)
 * 70.  Climbing Stairs (1)
 * 71.  Simplify Path (3)
-* 72.  Edit Distance (5) *
+* 72.  Edit Distance (5) * got it
 * 73.  Set Matrix Zeros (1)
 * 74.  Search a 2D Matrix (3) * (linear solution & nlgn solution)
 * 75.  Sort Colors (2)
