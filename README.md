@@ -51,13 +51,13 @@ Here is the question list:
 * 44.  Wildcard Matching (5) * failed
 * 45.  Jump GameII (2)
 * 46.  Permutation (2) (recursive, iterative)
-* 47.  PermutationII (2) 
-* 48.  Rotate Image(2) 
-* 49.  Anagrams (2) 
-* 50.  Pow(x, n) (3) 
+* 47.  PermutationII (2)
+* 48.  Rotate Image(2)
+* 49.  Anagrams (2)
+* 50.  Pow(x, n) (3)
 * 51.  N-Queens (4) (Recursive, Iterative) failed
 * 52.  N-QueensII (4) (Recursive, Iterative)
-* 53.  Maximun SubArray (3) * (Divide and Conquer, Linear Solution)
+* 53.  Maximun SubArray (3)  (Divide and Conquer, Linear Solution) ** failed
 * 54.  Spiral Matrix (2)
 * 55.  Jump Game (2)
 * 56.  Merge Intervals (4) *
@@ -77,7 +77,7 @@ Here is the question list:
 * 70.  Climbing Stairs (1)
 * 71.  Simplify Path (3)
 * 72.  Edit Distance (5) *
-* 73.  Set Matrix Zeros (1) 
+* 73.  Set Matrix Zeros (1)
 * 74.  Search a 2D Matrix (3) * (linear solution & nlgn solution)
 * 75.  Sort Colors (2)
 * 76.  Minimum Window Substring (5)
@@ -243,7 +243,7 @@ Here is the question list:
 * 300. Longest Increasing Subsequence (Dynamic Programming)
 * 301. Remove Invalid Parentheses ()
 * 303. Range Sum Query - Immutable (Dynamic Programming)
-* 304. Range Sum Query 2D - Immutable (Dynamic Programming) 
+* 304. Range Sum Query 2D - Immutable (Dynamic Programming)
 * 306. Additive Number (NoTag)
 * 307. Range Sum Query(Fenwick Tree, SegmentTree) ******
 * 309. Best time to buy and sell with cooldown(Dynamic Programming) ************************
@@ -262,5 +262,5 @@ Here is the question list:
 * 328. Odd Even LinkedList(Linked List)
 * 329. Longest Increasing Path in a Matrix (DFS, Topological Sort, Memoization) *
 * 330. Pathcing Array (Greedy) *
-* 331. Verify Preorer Serialization of a Binary Tree (Stack)
+* 331. Verify Preorder Serialization of a Binary Tree (Stack)
 * 332. Reconstruct Itinerary (Graph)
