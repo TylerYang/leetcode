@@ -78,7 +78,7 @@ Here is the question list:
 * 71.  Simplify Path (3)
 * 72.  Edit Distance (5) * got it
 * 73.  Set Matrix Zeros (1)
-* 74.  Search a 2D Matrix (3) * (linear solution & nlgn solution)
+* 74.  Search a 2D Matrix (3) * (nlgn solution)
 * 75.  Sort Colors (2)
 * 76.  Minimum Window Substring (5)
 * 77.  Combinations (2)
