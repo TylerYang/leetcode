@@ -78,7 +78,7 @@ Here is the question list:
 * 71.  Simplify Path (3)
 * 72.  Edit Distance (5) * got it
 * 73.  Set Matrix Zeros (1)
-* 74.  Search a 2D Matrix (3) * (nlgn solution)
+* 74.  Search a 2D Matrix (3) * (lgn solution)
 * 75.  Sort Colors (2)
 * 76.  Minimum Window Substring (5)
 * 77.  Combinations (2)
@@ -88,7 +88,7 @@ Here is the question list:
 * 81.  Search In Rotated Sorted ArrayII (2)
 * 82.  Remove Duplicates From Sorted ListII (1)
 * 83.  Remove Duplicates From Sorted List (1)
-* 84.  Largest Rectangle in Histogram (5) *
+* 84.  Largest Rectangle in Histogram (5) * Failed
 * 85.  Maximal Rectangle (5) *
 * 86.  Partition List (1)
 * 87.  Scramble String (5) * (Recursive, Dynamic Programming)
