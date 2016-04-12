@@ -89,7 +89,7 @@ Here is the question list:
 * 82.  Remove Duplicates From Sorted ListII (1)
 * 83.  Remove Duplicates From Sorted List (1)
 * 84.  Largest Rectangle in Histogram (5) * Failed
-* 85.  Maximal Rectangle (5) *
+* 85.  Maximal Rectangle (5) * Failed
 * 86.  Partition List (1)
 * 87.  Scramble String (5) * (Recursive, Dynamic Programming)
 * 88.  Merge Sorted Array (1)
