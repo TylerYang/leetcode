@@ -91,7 +91,7 @@ Here is the question list:
 * 84.  Largest Rectangle in Histogram (5) * Failed
 * 85.  Maximal Rectangle (5) * Failed
 * 86.  Partition List (1)
-* 87.  Scramble String (5) * (Recursive, Dynamic Programming)
+* 87.  Scramble String (5) * (Memorization Algorithm, Dynamic Programming) Failed
 * 88.  Merge Sorted Array (1)
 * 89.  Gray Code (2) *
 * 90.  SubsetsII (2)
