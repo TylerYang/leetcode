@@ -9,10 +9,10 @@ Here is the question list:
 * 2.   Add Two Numbers (3)
 * 3.   Logest String Without Repeating Characters (3)
 * 4.   Median of Two Sorted Arrays (5) *
-* 5.   Longest Palindromic Substring (3) (Brute force, Dynamic Programming) 
-* 6.   ZigZag Conversion (3) 
-* 7.   Reverse Integer (2) 
-* 8.   String to Integer (2) 
+* 5.   Longest Palindromic Substring (3) (Brute force, Dynamic Programming)
+* 6.   ZigZag Conversion (3)
+* 7.   Reverse Integer (2)
+* 8.   String to Integer (2)
 * 9.   Palidrome Number (2) (Reverse, Generic)
 * 10.  Regular Expression Matching (5) (Recursive)
 * 11.  Container With Most Water (2)
@@ -95,7 +95,7 @@ Here is the question list:
 * 88.  Merge Sorted Array (1)
 * 89.  Gray Code (2) * Subtle
 * 90.  SubsetsII (2)
-* 91.  Decode Ways (3) *
+* 91.  Decode Ways (3) * DP
 * 92.  Reverse Linked ListII (1)
 * 93.  Restore IP Addresses (2)
 * 94.  Binary Tree Inorder Traversal (2) (Stack, Morris Traversal)
@@ -153,11 +153,11 @@ Here is the question list:
 * 146. LUR Cache (4) *
 * 147. Insertion Sort List (2)
 * 148. Sort List (5) (Paper) *
-* 149. Max Points on a Line (3) 
+* 149. Max Points on a Line (3)
 * 150. Evaluate Reverse Polish Notation (2)
 * 151. Reverse Words in a String (2)
 * 152. Maximum Product Subarray (3) (Dynamic Programming) *
-* 153. Find Minimum in Rotated Sorted Array (3) * 
+* 153. Find Minimum in Rotated Sorted Array (3) *
 * 154. Find Minimum in Rotated Sorted ArrayII (4) *
 * 155. Min Stack (2)
 * 160. Intersection of Two Linked Lists (2)
@@ -171,7 +171,7 @@ Here is the question list:
 * 172. Factorial Trailing Zeroes (3)
 * 173. Binary Search Tree Iterator (3) *
 * 174. Dungeon Game (5) (Dynamic Programming) *
-* 179. Largest Number (3) 
+* 179. Largest Number (3)
 * 187. Repeated DNA Sequences (3) *
 * 188. Best Time to Buy and Sell Stock IV (5) (Dynamic Programming) *
 * 189. Rotate Array (3) (Programming Perls) (Swap, Reverse)
@@ -196,9 +196,7 @@ Here is the question list:
 * 214. Shortest Palindrome (String) *
 * 215. Kth LargestElement in an Array
 * 216. Combination Sum III 
-* 217. Contains Duplicate
-* 218. The Skyline Problem ** (PriorityQueue, BIT, SegmentTree)
-* 219. Contains DuplicateII
+* 217. Contains Duplicate * 218. The Skyline Problem ** (PriorityQueue, BIT, SegmentTree) * 219. Contains DuplicateII
 * 220. Contains DuplicateIII
 * 221. Maximal Square (Dynamic Programming) *
 * 222. Count Complete Tree Nodes (Binary Search) **
