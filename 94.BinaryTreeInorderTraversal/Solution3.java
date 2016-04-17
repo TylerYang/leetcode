@@ -2,24 +2,29 @@ import java.util.*;
 public class Solution3 {
     public List<Integer> inorderTraversal(TreeNode root) {
         //Morris Traversal
-        List<Integer> rlist = new ArrayList<Integer>();
-        while(root != null) {
-            if(root.left == null){
-                rList.add(root.val);
-                root = root.right;
+        //http://tyleryang.com/2016/04/17/Morris-Traversal-Algorithm/
+        List<Integer> list = new ArrayList<Integer>();
+        if (root == null) return list;
+        TreeNode curr = root;
+        while (curr != null) {
+            if (curr.left == null) {
+                list.add(curr.val);
+                curr = curr.right;
             } else {
-                TreeNode node = root.left;
-                while(node.right != null && node.right != root) node = node;right;
-                if(node.right == null) {
-                    node.right = root;
-                    root = root.left;
+                TreeNode next = curr.left;
+                while (next.right != null && next.right != curr) {
+                    next = next.right;
+                }
+                if (next.right == null) {
+                    next.right = curr;
+                    curr = curr.left;
                 } else {
-                    node.right = null;
-                    rList.add(root.val);
-                    root = root.right;
+                    next.right = null;
+                    list.add(curr.val);
+                    curr = curr.right;
                 }
             }
-        }    
-        return rList;
+        }
+        return list;
     }
 }
