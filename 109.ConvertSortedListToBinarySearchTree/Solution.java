@@ -1,27 +1,43 @@
 public class Solution {
-    ListNode curr;
+    //return height balanced binary search tree
     public TreeNode sortedListToBST(ListNode head) {
-        if(head == null) return null;
-        int len = 0;
-        curr = head; 
-        while(head != null) {
-            len++;
-            head = head.next;
-        }
-        return sortedListToBST(len);
+        return genBST(head, null);
     }
-    private TreeNode sortedListToBST(int size) {
-        if(size <= 0) return null;
-        
-        TreeNode leftChild = sortedListToBST(size / 2);
-        TreeNode root = new TreeNode(curr.val);
-        
-        curr = curr.next;
-        TreeNode rightChild = sortedListToBST(size - 1 - size / 2);
+    //1->3
+    private TreeNode genBST(ListNode head, ListNode end) {
+        if (head == null) return null;
+        if (head.next == end) {
+            return new TreeNode(head.val);
+        }
+        //1 null
+        ListNode mid = getMidNode(head, end);
+        //1
 
-        root.left = leftChild;
-        root.right = rightChild;
+        TreeNode root = new TreeNode(mid.val);
 
+        if (head != mid) {
+            TreeNode left = genBST(head, mid);
+            root.left = left;
+        }
+
+        TreeNode right = genBST(mid.next, end);
+        root.right = right;
         return root;
+    }
+    private ListNode getMidNode(ListNode head, ListNode end) {
+        if (head.next == null || head == end) return head;
+
+        ListNode slow = head;
+        ListNode fast = head;
+        while (fast != end) {
+            fast = fast.next;
+            if (fast != end) {
+                fast = fast.next;
+            }
+            if (fast == end) break;
+            slow = slow.next;
+        }
+
+        return slow;
     }
 }
