@@ -1,36 +1,42 @@
 public class Solution {
     public void connect(TreeLinkNode root) {
-        if(root == null) return;
-        TreeLinkNode p = root;
-        TreeLinkNode last = null;
-        TreeLinkNode first = null;
-        while(p != null) {
-            if(first == null) {
-                if(p.left != null) {
-                    first = p.left;
-                } else {
-                    first = p.right;
+        TreeLinkNode curr = root;
+        TreeLinkNode prev = null;
+        TreeLinkNode nextCurr = null;
+        while (curr != null) {
+            TreeLinkNode tmp = curr;
+            prev = null;
+            nextCurr = null;
+
+            while (tmp != null) {
+                if (tmp.left != null) {
+                    if (prev != null) {
+                        prev.next = tmp.left;
+                    }
+
+                    if (tmp.right == null) {
+                        prev = tmp.left;
+                    } else {
+                        tmp.left.next = tmp.right;
+                        prev = tmp.right;
+                    }
+                    if (nextCurr == null) {
+                        nextCurr = tmp.left;
+                    }
+                } else if(tmp.right != null) {
+                    if (prev != null) {
+                        prev.next = tmp.right;
+                    }
+                    prev = tmp.right;
+
+                    if (nextCurr == null) {
+                        nextCurr = tmp.right;
+                    }
                 }
+
+                tmp = tmp.next;
             }
-            if(p.left != null) {
-                if(last != null) {
-                    last.next = p.left;
-                }
-                last = p.left;
-            }
-            if(p.right != null) {
-                if(last != null) {
-                    last.next = p.right;
-                }
-                last = p.right;
-            }
-            if(p.next == null) {
-                p = first;
-                first = null;
-                last = null;
-            } else {
-                p = p.next;
-            }
+            curr = nextCurr;
         }
         return;
     }
