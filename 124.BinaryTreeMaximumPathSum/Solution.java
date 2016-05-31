@@ -1,24 +1,39 @@
 public class Solution {
     int max = 0;
     public int maxPathSum(TreeNode root) {
-        if(root == null) return 0;
-        max = root.val;     
-        maxPathSumHelper(root);
+        if (root != null) {
+            max = root.val;
+        }
+        calMaxSum(root);
         return max;
     }
-    private int maxPathSumHelper(TreeNode root) {
-        if(root == null) return 0;
+    private int calMaxSum(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        int result = root.val;
         
-        int total = root.val;
-        int leftVal = maxPathSumHelper(root.left);
-        int rightVal = maxPathSumHelper(root.right);
+        int leftSum = 0;
+        if (root.left != null) {
+            leftSum = calMaxSum(root.left);
+            if (leftSum > 0) result += leftSum;
+            
+            max = Math.max(leftSum, max);
+        }
 
-        if(leftVal > 0) total += leftVal;
-        if(rightVal > 0) total += rightVal;
+        int rightSum = 0;
+        if (root.right != null) {
+            rightSum = calMaxSum(root.right);
+            if (rightSum > 0) result += rightSum;
         
-        if(total > max) max = total;
+            max = Math.max(rightSum, max);
+        }
         
-        int maxChild = Math.max(leftVal, rightVal);
-        return root.val + (maxChild > 0 ? maxChild : 0);
+        int tmpMax = Math.max(leftSum, rightSum);
+    
+
+        max = Math.max(result, max);
+
+        return root.val + (tmpMax > 0 ? tmpMax : 0);
     }
 }
