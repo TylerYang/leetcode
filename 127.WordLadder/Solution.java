@@ -1,40 +1,43 @@
-import java.util.*;
 public class Solution {
-    Queue<String> wordQueue;
-    Queue<Integer> lengthQueue;
-    public int ladderLength(String beginWord, String endWord, Set<String> wordDict) {
-        if(wordDict.size() == 0) return 0;
+    public int ladderLength(String beginWord, String endWord, Set<String> wordList) {
+        if (wordList.size() == 0) return 0;
+        wordList.add(endWord);
         
-        wordQueue = new ArrayDeque<String>();
-        lengthQueue = new ArrayDeque<Integer>();
+        Queue<String> queue = new ArrayDeque<String>();
+        queue.add(beginWord);
         
-        wordQueue.add(beginWord);
-        lengthQueue.add(1);
-
-        return getLadderLength(endWord, wordDict);
-    }
-    private int getLadderLength(String endWord, Set<String> wordDict) {
-        while(wordQueue.isEmpty() == false) {
-            String beginWord = wordQueue.poll();
-            int len = lengthQueue.poll();
-            
-            char[] cArr = beginWord.toCharArray();
-            for(int i = 0; i < beginWord.length(); i++) {
-                for(char c = 'a'; c <= 'z'; c++) {
-                    if(c == cArr[i]) continue;
-                    cArr[i] = c;
-                    String newS = new String(cArr);
-                    if(newS.equals(endWord)) return len + 1;
-                    
-                    if(wordDict.contains(newS)) {
-                        wordDict.remove(newS);
-                        wordQueue.add(newS);
-                        lengthQueue.add(len + 1);
+        Map<String, Integer> ladder = new HashMap<String, Integer>();
+        for (String word: wordList) {
+            ladder.put(word, Integer.MAX_VALUE);
+        }
+        ladder.put(beginWord, 0);
+        
+        int min = 0;
+        while(!queue.isEmpty()) {
+            String word = queue.poll();
+            int step = ladder.get(word) + 1;
+            if (min != 0) break;
+            for (int i = 0; i < word.length(); i++) {
+                StringBuilder builder = new StringBuilder(word);
+                for (char ch = 'a'; ch <= 'z'; ch++) {
+                    builder.setCharAt(i, ch);
+                    String newWord = builder.toString();
+                    if (ladder.containsKey(newWord)) {
+                        if (step > ladder.get(newWord)) {
+                            continue;
+                        } else if (step < ladder.get(newWord)) {
+                            queue.add(newWord);
+                            ladder.put(newWord, step);
+                        }
+                        
+                        if (endWord.equals(newWord)) {
+                            min = step;
+                            break;
+                        }
                     }
                 }
             }
         }
-        return 0;
+        return min == 0 ? min: min + 1;
     }
 }
-
