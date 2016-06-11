@@ -1,18 +1,35 @@
-import java.util.Arrays;
 public class Solution3 {
     public int lengthOfLIS(int[] nums) {
-        int len = nums.length;
-        int[] dp = new int[len];
+        if (nums.length == 0) return 0;
 
-        int maxLen = 0;
+        int[] ends = new int[nums.length];
+        ends[0] = nums[0];
+        int len = 1;
 
-        for(int i = 0; i < len; i++) {
-            int pos = Arrays.binarySearch(dp, 0, maxLen, nums[i]);
-            if(pos < 0) pos = -(pos + 1);
-            dp[pos] = nums[i];
-            if(pos == maxLen) maxLen++;
+        for (int n: nums) {
+            int pos = binarySearch(ends, 0, len - 1, n);
+            //duplicated element
+            if (pos < 0) {
+                pos = -pos;
+            }
+
+            ends[pos] = n;
+            len = Math.max(len, pos + 1);
         }
-        return maxLen;
+        return len;
+    }
+    public int binarySearch(int[] nums, int left, int right, int target) {
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            if (nums[mid] > target) {
+                right = mid - 1;
+            } else if(nums[mid] < target) {
+                left = mid + 1;
+            } else {
+                return mid;
+            }
+        }
+        return -left;
     }
     public static void main(String[] args) {
         Solution3 sol = new Solution3();
