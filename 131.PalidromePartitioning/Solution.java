@@ -1,37 +1,37 @@
 public class Solution {
     public List<List<String>> partition(String s) {
-        return genPartition(s, 0);
+        if (s.length() == 0) return new ArrayList<List<String>>();
+        return genPalindromeList(s, 0);
     }
-    private List<List<String>> genPartition(String s, int start) {
-        List<List<String>> rlist = new ArrayList<List<String>>();
-        if(start == s.length() - 1) {
-            List<String> slist = new ArrayList<String>();
-            slist.add(s.substring(start));
-            rlist.add(slist);
-            return rlist;
+    private List<List<String>> genPalindromeList(String s, int start) {
+        List<List<String>> list = new ArrayList<List<String>>();
+        if (start == s.length() - 1) {
+            list.add(new ArrayList<String>(Arrays.asList(s.substring(start))));
+            return list;
         }
-        for(int i = start; i < s.length(); i++) {
-            if(isPartition(s, start, i)) {
-                if(i < s.length() - 1) {
-                    List<List<String>> subList = genPartition(s, i + 1);
-                    for(int j = 0; j < subList.size(); j++) {
-                        List<String> slist = new ArrayList<String>();
-                        slist.add(s.substring(start, i + 1));  
-                        slist.addAll(subList.get(j));
-                        rlist.add(slist);
-                    }    
+        for(int end = start; end < s.length(); end++) {
+            if (isPalindrome(s, start, end)) {
+                if (end == s.length() - 1) {
+                    list.add(new ArrayList<String>(Arrays.asList(s.substring(start))));
                 } else {
-                    List<String> slist = new ArrayList<String>();
-                    slist.add(s.substring(start, i + 1));
-                    rlist.add(slist);
+                    List<List<String>> subList = genPalindromeList(s, end + 1);
+                    if (subList.size() > 0) {
+                        String currStr = s.substring(start, end + 1);
+                        for(List<String> paliList: subList) {
+                            paliList.add(0, currStr);
+                            list.add(paliList);
+                        }
+                    }
                 }
             }
         }
-        return rlist;
+        return list;
     }
-    private boolean isPartition(String s, int start, int end) {
-        while(start < end) {
-            if(s.charAt(start++) != s.charAt(end--)) return false;
+    private boolean isPalindrome(String s, int left, int right) {
+        while (left < right) {
+            if (s.charAt(left++) != s.charAt(right--)) {
+                return false;
+            }
         }
         return true;
     }
