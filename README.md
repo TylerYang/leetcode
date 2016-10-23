@@ -262,3 +262,5 @@ Here is the question list:
 * 330. Pathcing Array (Greedy) *
 * 331. Verify Preorder Serialization of a Binary Tree (Stack)
 * 332. Reconstruct Itinerary (Graph)
+    
+* 395. Longest Substring with At Least K Repeating Characters (Bit Manipulation);
